@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved, import/extensions */
 import React, {PureComponent} from 'react';
-import {Animated, Dimensions, Easing, PanResponder, StyleSheet, View, ViewPropTypes} from 'react-native';
+import {Animated, Dimensions, Easing, PanResponder, StyleSheet, View} from 'react-native';
 import {PropTypes} from 'prop-types';
 /* eslint-enable import/no-unresolved, import/extensions */
 
@@ -79,12 +79,12 @@ export default class Swipeable extends PureComponent {
     disable: PropTypes.bool,
 
     // styles
-    style: ViewPropTypes.style,
-    leftContainerStyle: ViewPropTypes.style,
-    leftButtonContainerStyle: ViewPropTypes.style,
-    rightContainerStyle: ViewPropTypes.style,
-    rightButtonContainerStyle: ViewPropTypes.style,
-    contentContainerStyle: ViewPropTypes.style
+    //     style: ViewPropTypes.style,
+    //     leftContainerStyle: ViewPropTypes.style,
+    //     leftButtonContainerStyle: ViewPropTypes.style,
+    //     rightContainerStyle: ViewPropTypes.style,
+    //     rightButtonContainerStyle: ViewPropTypes.style,
+    //     contentContainerStyle: ViewPropTypes.style
   };
 
   static defaultProps = {
