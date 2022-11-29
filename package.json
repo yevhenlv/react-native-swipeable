@@ -1,8 +1,8 @@
 {
   "name": "react-native-swipeable-row",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Forked package for react-native 0.69.5",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "make build",
     "lint": "make lint"
